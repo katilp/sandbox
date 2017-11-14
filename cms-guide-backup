@@ -1,0 +1,74 @@
+Welcome to explore Open Data from the CMS experiment!
+
+This guide will show you through those CMS Open Data contents, which are aimed in particular for schools and education or just for fun with physics.
+
+**If you time is limited, or you want to do something quickly online, have a look at visual displays of real particle collisions, which contributed to the Higgs boson discovery:**
+
+- go to the [CMS event display](/visualise/events/CMS) 
+- wait for loading, and click on the `Open file` button,
+- choose `Open file(s) from web`,
+- choose `Education/` and then
+- click on 4lepton.ig to see Higgs boson decaying in electrons and/or muons or diphoton.ig to see Higgs boson decaying in two photons, and wait for the events to load to the right,
+- choose one and click on `Load`
+- to see photons, check `Photons` under `Physics` in the menu to the left (the choice is only visible if photons are present in the collision)
+- to see electrons, check `Electrons` under `Physics` and uncheck `Tracks (reco)` under `Tracking`in the menu to the left  (the choice is only visible if electrons are present in the collision).
+
+Note that if you have a VR viewer (like google cardboard), you can do this on your smartphone, click on the stereo view button and insert your phone to the viewer and have virtual tour in 3D in the middle of the collision!
+
+All collision datasets from CMS experiment have first events available for event display and many other events have been selected in specially prepared Event display files. Find them all in [search](/search?page=3&size=20&q=display&experiment=CMS&subtype=Derived#). Two examples of these specially prepared files are:
+- [Higgs candidate events for use in education and outreach](http://opendata.cern.ch/record/300) for the Higgs candidates
+- [Dimuon events with invariant mass range 2-5 GeV for public education and outreach](http://opendata.cern.ch/record/301) for J/Psi -> mu mu candidates
+
+You can find all these files directly under `Files` in `Open file` dialogue box. 
+
+For additional help, click on `Need help?`top right on the [CMS event display](/visualise/events/CMS) screen. (TOBEFIXED: not visible in the current display)
+For suggestions for class room activities see TOBEFIXED: new record for https://github.com/cms-opendata-education/cms-event-display-materials-multiple-languages
+
+**If you already know what are the basic physics quantities that are measured in a particle collision and want to play online with histograms from different Open Data samples:** 
+- go to the [histogram visualizer](http://opendata.cern.ch/visualise/histograms/CMS) 
+- for instructions, click on `Need HELP?`
+
+**In addition to these immediate online activities, there are plenty of additional resources. To get an overview of what is available:**
+- make a [search](/search?page=1&size=20&q=learning%20school%20education&experiment=CMS) with your keyword of interest (here learning, school and education are suggested)
+- check out the overview of [CMS Learning resources ](http://opendata.cern.ch/collection/CMS-Learning-Resources) 
+
+**To get a very first touch of concepts of statistical analysis in a hands-on class room activity, have a look at the material for an organized "Masterclass" exercise based on CMS data and event display:**
+- find the home page of the physics masterclass events through [Physics Masterclasses](/record/53)
+- an organized CMS masterclass event typically takes one day (including lectures and combination of results of several particpicating groups), if you have enough background knowledge, you can organize it on your own, it can be done in approximately two hours.
+
+**To get a step further in direction of data analysis, you may want to try how a limited number of events can be analyzed with spreadsheet programms:**
+- see [Instructions for use of CMS Open Data in spreadsheets](TOBEFIXED)
+- if you (or your students) are familiar with spreadsheets, these exercises can be done in an hour.
+
+**To get a first introduction in programming and physics data analysis in python through tutorials and examples with CMS Open data:**
+- see [Jupyter notebooks using CMS Open Data](TOBEFIXED)
+- depending on the scope of your exercise (learning programming/learning data analysis/learning particle physics), these tutorials and exercises can take from less than an hour to several hours.
+- see a [quick online hands-on demo](https://mybinder.org/v2/gh/cms-opendata-education/cms-online-notebooks-for-binder/master?filepath=quick-start-to-CMS-open-data.ipynb) to jupyter notebooks and CMS Open Data.
+
+**If you interested to have a quick look in CMS Open Data in R:**
+- see [Instructions for use of CMS Open Data in R](TOBEFIXED)
+
+
+**If you are a non-scientist, a high school or first year university student, or a teacher, you might be particularly interested in the "Physics Masterclasses" exercise.
+If you are a third year university student or higher, a scientist, or a university teacher, you might be interested in all the exercises.**
+
+
+
+
+
+
+**I want to get an introduction to high energy physics and CMS software in order to prepare myself for an activity in the Research section**
+- go to [CMS Learning resources](http://opendata.cern.ch/collection/CMS-Learning-Resources) 
+- go to `Computing methods in high energy physics` if you want to learn or refresh the basics of general and CMS computing
+then go to `CMS HEP tutorial` if you want to learn some basics about the analysis of 2011 CMS pp data
+to visualise event displays for the event classes used in the CMS HEP tutorial, follow the `alternative' instructions for the Higgs event displays above, and choose your favourite sample instead of `more`.
+
+**I want to explore the sophisticated `Outreach Exercise 2010` featuring an analysis of Z decay to two leptons & ZZ decay to four leptons (needs installation of a virtual machine and software environment as detailed under `Research` below). A video tutorial can be found under * does this actually still work?**
+- go to [CMS Open Data Instructions](http://opendata.cern.ch/collection/CMS-Open-Data-Instructions) 
+- "Video tutorial for Outreach Exercise 2010"
+
+**I want to access historic information on 'older' educational datasets released in 2010 and 2011: [CMSPublicData2011](https://twiki.cern.ch/twiki/bin/view/CMSPublic/CMSPublicData2011).**
+
+**I ran into a problem and need help**
+
+- Please check our page related to known errors
