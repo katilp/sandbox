@@ -71,10 +71,9 @@
       <ul>     
        <li><code>mv DoubleMuParked2012C_10000_Higgs.root rootfiles/.</code></li>
        <li><code>mv Higgs4L1file.root rootfiles/.</code></li>
-     </ul>
-         
+     </ul>         
       <li> change directory <code>cd rootfiles</code></li>
-      <li> download the macro<code> M4Lnormdatall_lvl3.cc</code> to this directory</li>
+      <li> download the macro <code>M4Lnormdatall_lvl3.cc</code> to this directory</li>
       <li> on the linux prompt, type <code>root -l M4Lnormdatall_lvl3.cc</code></li>
        <ul> 
         <li>you will get the output plot on the screen;
