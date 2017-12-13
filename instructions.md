@@ -100,7 +100,7 @@
    <li> download <a href=\"/record/1001\">the 2011 JSON validation file</a> to the <code>datasets</code> directory
         (in which you should already have the 2012 one)</li>
    <li> download all the MC index files for the MC sets listed in
-        <code>List_indexfile.txt<c/ode> to the <code>MCsets</code> directory (after having created it)</li>
+        <code>List_indexfile.txt</code> to the <code>MCsets</code> directory (after having created it)</li>
    <li> edit the relevant demoanalyzer file and insert the index file you
         want; for data, make sure to use the correct JSON validation file
         in each case; set an outputfile name of your choice for each smaple
