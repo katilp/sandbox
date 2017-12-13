@@ -51,7 +51,7 @@
       <li> recompile <code>scram b</code></li>
       <li> download <code>demoanalyzer_cfg_level3data.py</code> (data example) and
         <code>demoanalyzer_cfg_level3MC.py</code> (Higgs simulation example)</li>
-      <li> create datasets directory  <code>mkdir datasets</code> and change to this directory <li> <code>cd datasets</code></li>
+      <li> create datasets directory <code>mkdir datasets</code> and change to this directory <code>cd datasets</code></li>
       <li> download the 2012 JSON validation file from [http://opendata.web.cern.ch/record/1002] to this directory</li>
       <li>if not yet done at level 2, create the directory rootfiles and
         download all the level 2 root files to this directory (see level 2)</li>
