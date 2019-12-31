@@ -22,7 +22,7 @@ The dataset name consists of three parts separated by "/", e.g. "/TauPlusX/Run20
 Dataset contents
 ~~~~~~~~~~~~~~~~
 
-The primary dataset definition is centered around physics objects (SingleMu, Jet, Tau etc), and events triggered by HLT triggers with a similar physics use are mostly directed in the same PD. http://opendata.cern.ch/docs/cms-guide-trigger-system gives an overview of the CMS trigger system. Besides requirements on the physics content, the organisation of the primary datasets has to satisfy constraints related to the data processing and handling, such as the average event rate approximately uniform across the different PDs, and the event rate more than 10 Hz and less than 200 Hz. (relevant?)
+The primary dataset definition is centered around physics objects (SingleMu, Jet, Tau etc), and events triggered by HLT triggers with a similar physics use are mostly directed in the same PD. `This guide <http://opendata.cern.ch/docs/cms-guide-trigger-system>`_ gives an overview of the CMS trigger system. Besides requirements on the physics content, the organisation of the primary datasets has to satisfy constraints related to the data processing and handling, such as the average event rate approximately uniform across the different PDs, and the event rate more than 10 Hz and less than 200 Hz. (relevant?)
 
 Each CMS collision dataset comes with a brief description of the contents, and the full listing of all possible HLT trigger streams included in the dataset. The instructions how to find the exact definitions and parameters of the HLT trigger definitions can be found in http://opendata.cern.ch/docs/cms-guide-trigger-system under "HLT Trigger Path definitions". 
 
