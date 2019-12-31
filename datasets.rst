@@ -38,10 +38,12 @@ Data format
 The data format in use for Run1 data is Analysis Object Data (AOD). A brief description of data formats can be found in the introductory `About CMS <http://opendata.cern.ch/docs/about-cms>`_ under "Primary and simulated datasets".
 
 FIXME 
+
 Else 
 ~~~~
 
 To consider:
+
 - mention json files for validated runs/LS
 - Integrated luminosity here or in a separate chapter?
 
