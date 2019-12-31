@@ -51,6 +51,7 @@ Else
 To consider:
 
 - mention json files for validated runs/LS
+- mention condition data and GT
 - Integrated luminosity here or in a separate chapter?
 
 
@@ -61,5 +62,20 @@ https://cds.cern.ch/record/1976679/files/CR2014_311.pdf
 
 Simulated data
 --------------
+
+A set of simulated data (Monte Carlo - MC) corresponding to the collision data is made available. All directly available MC datasets can be found with `this search <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Simulated&experiment=CMS>`_. Furthermore, large amount of MC, thought to be of less frequent use, is available on demand and included in `search results <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&experiment=CMS&subtype=Simulated&ondemand=True>`_ if "include on-demand datasets" option is selected.
+
+MC dataset are searchable by categories, which can be found under "Filter by category" on the left bar of the search page.
+
+Dataset contents
+~~~~~~~~~~~~~~~~
+
+Event generation and processing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Data format
+~~~~~~~~~~~
+
+The data format in use for Run1 MC data is Analysis Object Data (AODSIM). A brief description of data formats can be found in the introductory `About CMS <http://opendata.cern.ch/docs/about-cms>`_ under "Primary and simulated datasets".
 
 
