@@ -16,8 +16,8 @@ Collision data
 
 The CMS collision data is organized in primary datasets (PD). All CMS open data primary datasets can be found with `this search <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS>`_.
 
-The dataset name consists of three parts separated by "/", e.g. 
-.. /TauPlusX/Run2011A-12Oct2013-v1/AOD
+The dataset name consists of three parts separated by "/", e.g. ::
+ /TauPlusX/Run2011A-12Oct2013-v1/AOD
 The first part indicates the primary dataset contents (TauPlusX), the second part is the data-taking era (Run2011A) and reprocessing (12Oct2013), and the last one indicates the data format (AOD).
 
 Dataset contents
