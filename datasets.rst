@@ -14,17 +14,22 @@ An overview of the datasets and links to further information about their naming 
 Collision data
 --------------
 
-The	collision data passing the CMS trigger selections (L1 & HLT) is organized in Primary Datasets (PD). All open data primary datasets can be found in http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS
+The collision data passing the CMS trigger selections (L1 & HLT) is organized in Primary Datasets (PD). All open data primary datasets can be found in http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS
 
-The PD definition is centered around physics objects (SingleMu, Jet, etc), and triggers	with similar physics use are mostly in the same PD. Besides requirements on the physics content, the organisation of the primary dataset has to satisfy constraints related to the data processing and handling, such as the average event rate approximately uniform across the different PDs, and the event rate more than 10 Hz and less than 200 Hz. Each CMS collision dataset comes with a brief description of the contents, and the full listing of all possible HLT trigger streams included in the dataset.
+One year of data taking is divided in several "eras" indicated as RunA, RunB, etc. According to the CMS data policy, 50% of data is published after the embargo period, completed with the full release within 10 years.
+
+The Primary Dataset definition is centered around physics objects (SingleMu, Jet, etc), and events triggered by HLT triggers with a similar physics use are mostly directed in the same PD. Besides requirements on the physics content, the organisation of the primary dataset has to satisfy constraints related to the data processing and handling, such as the average event rate approximately uniform across the different PDs, and the event rate more than 10 Hz and less than 200 Hz. (relevant?)
+
+Each CMS collision dataset comes with a brief description of the contents, and the full listing of all possible HLT trigger streams included in the dataset. The instructions how to find the exact definitions and parameters of the HLT trigger definitions can be found in http://opendata.cern.ch/docs/cms-guide-trigger-system under "HLT Trigger Path definitions". 
 
 There an average overlap between the PDs of around 25% during Run1 and it must be taken into account when combining events from different datasets in an analysis.
 
+Refs
+G. Franzoni: Dataset definition for CMS operations and physics analyses
+https://cds.cern.ch/record/1976679/files/CR2014_311.pdf
 
 
 Simulated data
 --------------
 
-Refs
-G. Franzoni: Dataset definition for CMS operations and physics analyses
-https://cds.cern.ch/record/1976679/files/CR2014_311.pdf
+
