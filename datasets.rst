@@ -4,7 +4,7 @@ Data samples and simulation
 Goal of this page
 -----------------
 
-An overview of the datasets and links to further information about their naming and contents.
+An overview of the CMS datasets and links to further information about their naming and contents.
 
 .. toctree::
    :maxdepth: 2
@@ -14,7 +14,7 @@ An overview of the datasets and links to further information about their naming 
 Collision data
 --------------
 
-The collision data is organized in primary datasets (PD). All open data primary datasets can be found with `this search <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS>`_.
+The CMS collision data is organized in primary datasets (PD). All CMS open data primary datasets can be found with `this search <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS>`_.
 
 The dataset name consists of three parts separated by "/", e.g. "/TauPlusX/Run2011A-12Oct2013-v1/AOD". The first part indicates the primary dataset contents (TauPlusX), the second part is the data-taking era (Run2011A) and reprocessing (12Oct2013), and the last one indicates the data format (AOD).
 
