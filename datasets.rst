@@ -14,7 +14,7 @@ An overview of the datasets and links to further information about their naming 
 Collision data
 --------------
 
-The collision data passing the CMS trigger selections is organized in primary datasets (PD). All open data primary datasets can be found with `this search <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS>`_.
+The collision data is organized in primary datasets (PD). All open data primary datasets can be found with `this search <http://opendata.cern.ch/search?page=1&size=20&type=Dataset&subtype=Collision&experiment=CMS>`_.
 
 The dataset name consists of three parts separated by "/", e.g. "/TauPlusX/Run2011A-12Oct2013-v1/AOD". The first part indicates the primary dataset contents (TauPlusX), the second part is the data-taking era (Run2011A) and reprocessing (12Oct2013), and the last one indicates the data format (AOD).
 
@@ -67,10 +67,14 @@ A set of simulated data (Monte Carlo - MC) corresponding to the collision data i
 
 MC dataset are searchable by categories, which can be found under "Filter by category" on the left bar of the search page.
 
+The dataset name consists of three parts separated by "/", e.g. "/DYToMuMu_M-15To50_Tune4C_8TeV-pythia8/Summer12_DR53X-PU_S10_START53_V19-v1/AODSIM". The first part indicates the simulated physics process (DYToMuMu), some of the production parameters (M-15To50_Tune4C), collision energy (8TeV), and the event generator used in the processing chain. `CMS simulated datasets names <http://opendata.cern.ch/docs/cms-simulated-dataset-names>`_ gives more details in the naming. The second part is the production campaign (Summer12_DR53X), pile-up profile (PU_S10) and processing conditions(START53_V19), and the last one indicates the data format (AODSIM).
+
 Dataset contents
 ~~~~~~~~~~~~~~~~
 
-Event generation and processing
+
+
+Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Data format
